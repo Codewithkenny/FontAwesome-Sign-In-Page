@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(MEDIA/image/background\ image.png);
+}
+
+.header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 30px;
+}
+
+i {
+    color: rgb(94, 94, 245);
+}
+
+.container {
+    margin: auto;
+    width: 40vw;
+    background-color: white;
+    margin-top: 100px;
+    padding: 30px;
+
+}
+
+.top img {
+    margin-bottom: 20px;
+}
+
+.top {
+    text-align: center;
+}
+
+.top h3 {
+    margin-bottom: 20px;
+}
+
+.top h5 {
+    margin-bottom: 20px;
+}
+
+.top p {
+    margin-bottom: 20px;
+}
+
+.email {
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}
+
+.password {
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}
+
+
+input[type=email] {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+}
+
+
+input[type=password] {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-A a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+    background-color: gold;
+    border-radius: 10px;
+    box-shadow: 0px 10px black;
+    opacity: 0.97;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(29, 29, 104);
+    padding: 30px;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+
+}
+
+li {
+    padding-right: 20px;
+    list-style: none;
+
+
+}
